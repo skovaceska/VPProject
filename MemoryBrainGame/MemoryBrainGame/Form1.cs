@@ -20,9 +20,8 @@ namespace MemoryBrainGame
 
         private void start_Click(object sender, EventArgs e)
         {
-            this.Close();
             Form2 form2 = new Form2();
-            
+            form2.Show();
         }
     }
 }
