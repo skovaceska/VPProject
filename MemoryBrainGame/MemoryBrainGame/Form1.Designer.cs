@@ -60,6 +60,7 @@
             this.options.TabIndex = 4;
             this.options.Text = "Options";
             this.options.UseVisualStyleBackColor = false;
+            this.options.Click += new System.EventHandler(this.options_Click);
             // 
             // start
             // 
@@ -87,6 +88,7 @@
             this.exit.TabIndex = 6;
             this.exit.Text = "Exit";
             this.exit.UseVisualStyleBackColor = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // Form1
             // 

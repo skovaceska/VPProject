@@ -10,30 +10,39 @@ namespace MemoryBrainGame
     {
         public int n, m; 
         public int[,] mat;
-        Dictionary<int, int> mapForRandom;
-        Random r;
+        public Dictionary<int, int> mapForRandom;
+        public Random r;
 
         public Memory(int lvl)
         {
             if (lvl == 0)
             {
-                mat = new int[3, 4];
+                //mat = new int[3, 4];
                 n = 3;
                 m = 4;
             }
             else if (lvl == 1)
             {
-                mat = new int[4, 5];
+                //mat = new int[4, 5];
                 n = 4;
                 m = 5;
             }
             else if (lvl == 2)
             {
-                mat = new int[5, 6];
+                //mat = new int[5, 6];
                 n = 5;
                 m = 6;
             }
-                
+
+            mat = new int[5, 6];
+
+            for(int i = 0; i < 5; i++)
+            {
+                for(int j = 0; j < 6; j++)
+                {
+                    mat[i, j] = -1;
+                }
+            }
 
             mapForRandom = new Dictionary<int, int>();
         }

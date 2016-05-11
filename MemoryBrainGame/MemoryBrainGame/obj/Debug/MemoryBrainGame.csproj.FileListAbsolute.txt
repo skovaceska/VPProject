@@ -18,3 +18,4 @@ C:\Users\X\Desktop\VPProject\MemoryBrainGame\MemoryBrainGame\obj\Debug\MemoryBra
 C:\Users\X\Desktop\VPProject\MemoryBrainGame\MemoryBrainGame\obj\Debug\MemoryBrainGame.Form2.resources
 C:\Users\X\Desktop\VPProject\MemoryBrainGame\MemoryBrainGame\obj\Debug\MemoryBrainGame.Properties.Resources.resources
 C:\Users\X\Desktop\VPProject\MemoryBrainGame\MemoryBrainGame\obj\Debug\MemoryBrainGame.csproj.GenerateResource.Cache
+C:\Users\X\Desktop\VPProject\MemoryBrainGame\MemoryBrainGame\obj\Debug\MemoryBrainGame.Form3.resources

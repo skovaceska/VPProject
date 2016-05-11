@@ -12,6 +12,8 @@ namespace MemoryBrainGame
 {
     public partial class Form1 : Form
     {
+        public static int level;
+
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +24,31 @@ namespace MemoryBrainGame
         {
             Form2 form2 = new Form2();
             form2.Show();
+            if (form2.Visible)
+            {
+                this.Hide();
+            }
+            
+            this.Show();
+
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void options_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            level = form3.level;
+            if(form3.Visible)
+            {
+                this.Hide();
+            }
+            if(!form3.Visible)
+                this.Show();
         }
     }
 }
