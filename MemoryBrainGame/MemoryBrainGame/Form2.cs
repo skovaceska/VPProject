@@ -14,7 +14,7 @@ namespace MemoryBrainGame
     {
         public PictureBox first;
         public PictureBox second;
-        public int cliked;
+        public int clicked;
         public bool finish;
         private Memory memory;
         public int level;
@@ -40,7 +40,7 @@ namespace MemoryBrainGame
            
             first = new PictureBox();
             second = new PictureBox();
-            cliked = 0;
+            clicked = 0;
             finish = false;
 
             level = Form1.level;
