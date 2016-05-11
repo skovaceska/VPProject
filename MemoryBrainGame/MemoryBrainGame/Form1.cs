@@ -50,5 +50,11 @@ namespace MemoryBrainGame
             if(!form3.Visible)
                 this.Show();
         }
+
+        private void help_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
     }
 }
