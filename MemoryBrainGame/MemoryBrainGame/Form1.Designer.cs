@@ -47,6 +47,7 @@
             this.help.TabIndex = 3;
             this.help.Text = "? Help";
             this.help.UseVisualStyleBackColor = false;
+            this.help.Click += new System.EventHandler(this.help_Click);
             // 
             // options
             // 
