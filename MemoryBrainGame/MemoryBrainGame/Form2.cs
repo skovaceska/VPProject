@@ -18,7 +18,7 @@ namespace MemoryBrainGame
         public bool finish;
         private Memory memory;
         public int level;
-        public Dictionary<int, Image> images;
+        public Dictionary<int, Bitmap> images;
 
         internal Memory Memory
         {
@@ -46,27 +46,27 @@ namespace MemoryBrainGame
             level = Form1.level;
 
             Memory = new Memory(level);
-            images = new Dictionary<int, Image>();
-            initialaze();
+            images = new Dictionary<int, Bitmap>();
+            initialize();
         }
 
-        public void initialaze()
+        public void initialize()
         {
-            images.Add(1, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\angularjs.png"));
-            images.Add(2, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\c#.png"));
-            images.Add(3, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\c++.png"));
-            images.Add(4, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\cobol.png"));
-            images.Add(5, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\html.png"));
-            images.Add(6, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\java.png"));
-            images.Add(7, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\javascript.png"));
-            images.Add(8, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\php.png"));
-            images.Add(9, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\prolog.jpg"));
-            images.Add(10, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\python.png"));
-            images.Add(11, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\ruby.png"));
-            images.Add(12, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\visualBasic.png"));
-            images.Add(13, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\jade.png"));
-            images.Add(14, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\sql.png"));
-            images.Add(15, Image.FromFile("C:\\Users\\X\\Desktop\\VPProject\\VP_pictures\\swift.png"));
+            images.Add(1, new Bitmap(MemoryBrainGame.Properties.Resources.angularjs));
+            images.Add(2, new Bitmap(MemoryBrainGame.Properties.Resources.cobol));
+            images.Add(3, new Bitmap(MemoryBrainGame.Properties.Resources.c_));
+            images.Add(4, new Bitmap(MemoryBrainGame.Properties.Resources.c__));
+            images.Add(5, new Bitmap(MemoryBrainGame.Properties.Resources.html));
+            images.Add(6, new Bitmap(MemoryBrainGame.Properties.Resources.jade));
+            images.Add(7, new Bitmap(MemoryBrainGame.Properties.Resources.java));
+            images.Add(8, new Bitmap(MemoryBrainGame.Properties.Resources.javascript));
+            images.Add(9, new Bitmap(MemoryBrainGame.Properties.Resources.php));
+            images.Add(10, new Bitmap(MemoryBrainGame.Properties.Resources.prolog));
+            images.Add(11, new Bitmap(MemoryBrainGame.Properties.Resources.python));
+            images.Add(12, new Bitmap(MemoryBrainGame.Properties.Resources.ruby));
+            images.Add(13, new Bitmap(MemoryBrainGame.Properties.Resources.sql));
+            images.Add(14, new Bitmap(MemoryBrainGame.Properties.Resources.swift));
+            images.Add(15, new Bitmap(MemoryBrainGame.Properties.Resources.visualBasic));
         }
 
        
