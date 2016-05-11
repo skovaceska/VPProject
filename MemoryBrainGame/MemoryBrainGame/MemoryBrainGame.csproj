@@ -123,6 +123,25 @@
   <ItemGroup>
     <None Include="Resources\turquoise_by_lairis77 [www.imagesplitter.net]-0-0.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visualBasic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift.png" />
+    <None Include="Resources\sql.png" />
+    <None Include="Resources\ruby.png" />
+    <None Include="Resources\python.png" />
+    <None Include="Resources\prolog.jpg" />
+    <None Include="Resources\php.png" />
+    <None Include="Resources\javascript.png" />
+    <None Include="Resources\java.png" />
+    <None Include="Resources\jade.png" />
+    <None Include="Resources\html.png" />
+    <None Include="Resources\cobol.png" />
+    <None Include="Resources\c++.png" />
+    <None Include="Resources\c#.png" />
+    <None Include="Resources\angularjs.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
